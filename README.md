@@ -9,6 +9,8 @@ Read the detailed blog post here. ([https://sidthoviti.com/threat-modeling-using
 
 ArgusGPT leverages the power of LLMs, specifically  DeepSeek-R1, combined with a RAG pipeline to analyze system documentation (e.g., Product Requirement Documents - PRDs) and generate structured threat models and attack trees. This helps security engineers quickly identify potential vulnerabilities and visualize attack paths.
 
+![ArgusGPT](https://sidthoviti.com/wp-content/uploads/2025/02/image-6-1024x443-1400x1060.png)
+
 ## Features
 
 *   Automated Threat Modeling: Extracts security threats, classifies them, maps them to common vulnerability categories (e.g., OWASP Top 10), and suggests remediation strategies.
@@ -16,6 +18,10 @@ ArgusGPT leverages the power of LLMs, specifically  DeepSeek-R1, combined with a
 *   Document Processing: Handles PDF documents, extracts text, and uses semantic chunking for efficient retrieval.
 *   Customizable Prompts:  Allows for tailoring the LLM's analysis through prompt engineering.
 *   Streamlit Interface: Provides a user-friendly web interface for uploading documents, configuring analysis parameters, and viewing results.
+
+![Threat Modeling Output](https://sidthoviti.com/wp-content/uploads/2025/02/image-1-2048x1241.png)
+![Attack Tree Output](https://sidthoviti.com/wp-content/uploads/2025/02/image-4.png)
+![Mermaid Code Output](https://sidthoviti.com/wp-content/uploads/2025/02/image-3-2048x1006.png)
 
 ## Getting Started
 
